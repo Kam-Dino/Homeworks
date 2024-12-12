@@ -8,7 +8,7 @@ themeToggle.addEventListener('click', () => {
 const translations = {
     ru: {
         name: "👨‍💻 | Камолиддин",
-        position: "Python Developer",
+        position: "Python Разработчик",
         aboutTitle: "О себе",
         aboutContent: "Краткое описание ваших навыков и достижений. Вы профессионал в своей области.",
         educationTitle: "Образование",

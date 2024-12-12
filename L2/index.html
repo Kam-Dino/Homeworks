@@ -10,14 +10,17 @@
 <body>
     <header>
         <div class="header-container">
-            <div class="header-content">
+            <div class="header-content" style="margin-left: 10px;"> <!-- Смещение влево -->
                 <img src="images/Kam-Dino.jpeg" alt="Фото профиля" class="profile-photo">
                 <div class="header-text">
                     <h1 id="name">👨‍💻 | Камолиддин</h1>
                     <h2 id="position">Python Developer</h2>
                 </div>
             </div>
-            <!-- Настройки -->
+            <div class="center-content" style="display: flex; gap: 10px; align-items: center;"> <!-- Горизонтальное расположение -->
+                <h2>📑 | Резюме</h2>
+                <h2>💼 | Сфера: IT-специалист</h2>
+            </div>
             <div class="settings-container">
                 <button id="theme-toggle">🌗 Сменить тему</button>
                 <div class="language-switcher">
@@ -25,6 +28,7 @@
                     <button class="lang-btn" id="lang-en">🇬🇧</button>
                     <button class="lang-btn" id="lang-uz">🇺🇿</button>
                 </div>
+                <button id="auth-btn" class="auth-btn">🚪 Авторизация</button>
             </div>
         </div>
     </header>
